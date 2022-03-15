@@ -53,3 +53,8 @@
   width: 50%;
   flex-direction: column;
 }
+
+.sign-up-form > label{
+  padding: 0.5em;
+  width: 100%
+}
