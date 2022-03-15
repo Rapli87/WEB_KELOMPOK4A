@@ -62,3 +62,10 @@
 .sign-up-form > label > input{
   width: 100%
 }
+
+/* All Inputs Styling */
+input {
+  padding: 0.5em;
+  border: 1px solid #035E7B;
+  border-radius: 5em;
+}
