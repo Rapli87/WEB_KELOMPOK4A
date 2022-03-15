@@ -48,3 +48,8 @@
   
   /* background-image: url('./bromo.jpg'); */
 }
+
+.sign-up-form{
+  width: 50%;
+  flex-direction: column;
+}
