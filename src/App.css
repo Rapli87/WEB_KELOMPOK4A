@@ -39,3 +39,12 @@
   background-image: #ffffff;
   height: 100vh;
 }
+
+.cfb{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  /* background-image: url('./bromo.jpg'); */
+}
