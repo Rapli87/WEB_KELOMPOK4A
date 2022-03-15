@@ -76,6 +76,7 @@ input {
   border-radius: 5em;
 }
 
+/* All Buttons Styling */
 button {
   padding: 1em;
 
@@ -91,4 +92,8 @@ button {
 
 button:focus {
   outline: 0;
+}
+
+button:hover{
+  opacity: 0.9;
 }
