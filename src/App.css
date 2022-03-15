@@ -87,3 +87,7 @@ button {
   font-weight: bold;
   text-decoration: none;
 }
+
+button:focus {
+  outline: 0;
+}
