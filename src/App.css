@@ -34,3 +34,8 @@
   transition: 2s;
 }
 
+/* App */
+.App{
+  background-image: #ffffff;
+  height: 100vh;
+}
