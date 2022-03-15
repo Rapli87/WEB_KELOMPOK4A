@@ -58,3 +58,7 @@
   padding: 0.5em;
   width: 100%
 }
+
+.sign-up-form > label > input{
+  width: 100%
+}
