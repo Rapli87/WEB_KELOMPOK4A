@@ -49,6 +49,11 @@
   /* background-image: url('./bromo.jpg'); */
 }
 
+/* Layout styling of forms, labels, inputs */
+.form-comp{
+  flex-direction: column;
+}
+
 .sign-up-form{
   width: 50%;
   flex-direction: column;
