@@ -24,3 +24,29 @@ const Container = () => {
 
   return (
     <div className="Container cfb">
+      
+      <div className={setBannerClass()}> 
+
+        {welcome ? 
+          <h2>Hello, New Friend!</h2>
+            : <h2>Welcome Back</h2>}
+
+        <button onClick={()=> setWelcome(!welcome)}>
+          {welcome ?
+            "Sign In"
+              : "Create Account"}
+        </button>
+      </div>
+
+      <div className={setFormClass()}> 
+          {welcome ? 
+            <SignUp /> 
+              : <SignIn/>
+          }
+          
+      </div>
+    </div>
+  );
+}
+
+export default Container;

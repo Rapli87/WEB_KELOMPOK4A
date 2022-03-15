@@ -95,3 +95,36 @@ button:focus {
 button:hover{
   opacity: 0.9;
 }
+
+/* Banner Side of Container */
+.banner-side{
+  position: absolute;
+  z-index: 2;
+  right: 65%;
+
+  border: 0.1em solid #174bb9;
+  border-radius: 0.5em;
+
+  width: 35%;
+  height: 100%;
+
+  flex-direction: column;
+
+  background-color: #035E7B;
+  opacity: 1;
+
+  color: #EEFCF8;
+  text-align: center;
+
+  transition: 2s;
+}
+
+.send-right{
+  right: 0;
+}
+
+.send-left{
+  right: 35%;
+}
+
+
