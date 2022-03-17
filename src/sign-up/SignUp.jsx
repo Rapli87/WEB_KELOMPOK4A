@@ -10,14 +10,14 @@ const SignUp = () => {
       <h1>Create an Account!</h1>
       <form className="sign-up-form cfb">
         <label>
-          Name:
+          Nama:
           <br/>
-          <input placeholder="Name" />
+          <input placeholder="Masukkan Nama" />
         </label>
         <label>
           Email:
           <br/>
-          <input placeholder="Email" type={'email'} />
+          <input placeholder="Masukkan Email" type={'email'} />
         </label>
         <label>
           Password:

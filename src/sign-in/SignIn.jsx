@@ -11,12 +11,12 @@ const SignIn = () => {
         <label>
           Email:
           <br />
-          <input placeholder="Email" type={"email"} />
+          <input placeholder="Masukkan Email" type={"email"} />
         </label>
         <label>
           Password:
           <br />
-          <input placeholder="Password" type={"password"} />
+          <input placeholder="Masukkan Password" type={"password"} />
         </label>
         <br />
         <button>Sign In!</button>

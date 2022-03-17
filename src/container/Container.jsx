@@ -28,8 +28,8 @@ const Container = () => {
       <div className={setBannerClass()}> 
 
         {welcome ? 
-          <h2>Hello, New Friend!</h2>
-            : <h2>Welcome Back</h2>}
+          <h2>Hello, Friend!</h2>
+            : <h2>Welcome</h2>}
 
         <button onClick={()=> setWelcome(!welcome)}>
           {welcome ?

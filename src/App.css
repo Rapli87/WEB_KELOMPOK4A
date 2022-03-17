@@ -11,6 +11,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  /* font-family: myfont2;
+  src: url(./Font/Poppins-Italic.ttf); */
+  /* font-family: myfont87;
+  src: url(./Font/serifregular.ttf); */
   
   /* background-image: url('./bromo.jpg'); */
 }
@@ -23,7 +27,7 @@
   width: 50%;
   height: 60%;
 
-  box-shadow: 1px 2px 2px #4066cc;
+  /* box-shadow: 1px 2px 2px #ffffff; */
   /* border: 0.1em solid #174bb9; */
   border-radius: 0.5em;
 
@@ -36,7 +40,7 @@
   z-index: 2;
   right: 65%;
 
-  border: 0.1em solid #174bb9;
+  border: 0.1em solid #035E7B;
   border-radius: 0.5em;
 
   width: 35%;
