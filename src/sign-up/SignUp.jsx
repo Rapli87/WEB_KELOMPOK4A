@@ -12,17 +12,17 @@ const SignUp = () => {
         <label>
           Name:
           <br/>
-          <input />
+          <input placeholder="Name" />
         </label>
         <label>
           Email:
           <br/>
-          <input type={'email'} />
+          <input placeholder="Email" type={'email'} />
         </label>
         <label>
           Password:
           <br/>
-          <input type={'password'}/>
+          <input placeholder="Password" type={'password'}/>
         </label>
         <br/>
         <button>

@@ -1,6 +1,7 @@
 /* App */
 .App{
-  background-image: #ffffff;
+  background-size: cover;
+  background-image: url('./bromo.jpg'); 
   height: 100vh;
 }
 
@@ -90,11 +91,13 @@
 .sign-up-form{
   width: 50%;
   flex-direction: column;
+  
 }
 
 .sign-up-form > label{
   padding: 0.5em;
   width: 100%
+  
 }
 
 .sign-up-form > label > input{
