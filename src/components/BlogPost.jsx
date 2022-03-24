@@ -1,4 +1,63 @@
+import React from "react";
+import Post from "../container/Post";
 
+class BlogPost extends React.Component {
+
+    // refresh = ()=>{
+    //     window.location.reload();
+    //     this.insertBook();
+    //     // alert('Berhasil Menyimpan Data');
+    // }
+
+    state = {
+        list: [],
+        InsertBooking: {
+            id: '',
+            gambar: '',
+            title: '',
+            destinasi: "",
+            harga: 0
+        }
+    }
+
+    // get all books
+    ambilDataDariServerAPI = () => {
+        fetch('http://localhost:3001/posts')
+            .then(response => response.json())
+            .then(jsonHasilAmbilDariAPI => {
+                this.setState({
+                    list: jsonHasilAmbilDariAPI
+                })
+            })
+    }
+
+    // delete books by id
+    deleteBooking = (id) => {
+        fetch('http://localhost:3001/posts/' + id, {
+            method: 'DELETE'
+        })
+            .then(json => this.ambilDataDariServerAPI())
+    }
+
+    // handle value of field
+    handleChangeInsert = (event) => {
+        let formInsertBooking = { ...this.state.InsertBooking };
+        formInsertBooking['id'] = new Date().getTime();
+        formInsertBooking[event.target.name] = event.target.value;
+        this.setState({
+            InsertBooking: formInsertBooking
+        });
+    }
+
+    // insert to API
+    insertBook = (event) => {
+        event.preventDefault();
+        fetch('http://localhost:3001/posts', {
+            method: 'POST',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json',
+            },
 
 
 
