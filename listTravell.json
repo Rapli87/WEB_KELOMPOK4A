@@ -1,0 +1,159 @@
+{
+    "cutomer": [
+      {
+        "userId": 1,
+        "id": 1,
+        "nama": "Rafli Al Fajar",
+        "email": "rafli@gmail.com",
+        "alamat": "Jember",
+        "noTelp": "082231159862",
+        "tanggal lahir": "08/11/2001"
+      },
+      {
+        "userId": 2,
+        "id": 2,
+        "nama": "Maulana Fiqri Nurul Fawaid",
+        "email": "maulanafiqri@gmail.com",
+        "alamat": "Jember",
+        "noTelp": "082143078424",
+        "tanggal lahir": "08/10/2001"
+      },
+      {
+        "userId": 3,
+        "id": 3,
+        "nama": "Yuliana Dewi",
+        "email": "dewi@gmail.com",
+        "alamat": "Jember",
+        "noTelp": "085775865683",
+        "tanggal lahir": "08/12/2001"
+      },
+      {
+        "userId": 4,
+        "id": 4,
+        "nama": "Rera Varius Cindua",
+        "email": "rera@gmail.com",
+        "alamat": "Jember",
+        "noTelp": "087851131734",
+        "tanggal lahir": "08/01/2002"
+      },
+      {
+        "userId": 5,
+        "id": 5,
+        "nama": "Dwi Nur Elisa",
+        "email": "elisa@gmail.com",
+        "alamat": "Jember",
+        "noTelp": "081359231583",
+        "tanggal lahir": "08/02/2002"
+      },
+      {
+        "userId": 6,
+        "id": 6,
+        "nama": "Faisal Kevin",
+        "email": "kevin@gmail.com",
+        "alamat": "Jakarta",
+        "noTelp": "082378864583",
+        "tanggal lahir": "19/03/1992"
+      },
+      {
+        "userId": 7,
+        "id": 7,
+        "nama": "fania idelia amanda",
+        "email": "fania@gmail.com",
+        "alamat": "Bandung",
+        "noTelp": "089765432345",
+        "tanggal lahir": "27/04/1998"
+      },
+      {
+        "userId": 8,
+        "id": 8,
+        "nama": "Muhammad Abdillah Amir",
+        "email": "abi@gmail.com",
+        "alamat": "Lumajang",
+        "noTelp": "085678965456",
+        "tanggal lahir": "24/05/1999"
+      },
+      {
+        "userId": 9,
+        "id": 9,
+        "nama": "Putri Salsabillah Anggraeni",
+        "email": "putri@gmail.com",
+        "alamat": "Malang",
+        "noTelp": "089766543211",
+        "tanggal lahir": "01/06/2000"
+      },
+      {
+        "userId": 10,
+        "id": 10,
+        "nama": "Bagas Adi Cahya",
+        "email": "bagas@gmail.com",
+        "alamat": "Blitar",
+        "noTelp": "082366876543",
+        "tanggal lahir": "08/07/2001"
+      }
+    ],
+    "paketdestinasi": [
+      {
+        "id": 1,
+        "title": "Bromo Gembira",
+        "destinasi": "puncak sunrise,bukit widodaren,kawah bromo dan gunung batok,spot akasia,savana dan bukit teletubbies",
+        "harga": "450.000",
+        "gambar": "https://firebasestorage.googleapis.com/v0/b/jgh-1-36886.appspot.com/o/volcano-g619829ff6_1920.jpg?alt=media&token=497b9091-7ea4-401d-b667-85315612778f"
+      },
+      {
+        "id": 2,
+        "title": "Wisata Kota Batu",
+        "destinasi": "jatim park 3,goa pinus,omah kayu,paralayang",
+        "harga": "350.000",
+        "gambar": "https://firebasestorage.googleapis.com/v0/b/jgh-1-36886.appspot.com/o/Berkunjung%20ke%20Kota%20Batu%20di%20Malang.jpg?alt=media&token=6331e300-c9ed-46da-a9c5-87f449be7f49"
+      },
+      {
+        "id": 3,
+        "title": "banyuwangi ceria",
+        "destinasi": "teluk ijo,red island,baluran,savana bekal,kawah ijen",
+        "harga": "350.000",
+        "gambar": "https://firebasestorage.googleapis.com/v0/b/jgh-1-36886.appspot.com/o/perahu-g6687e19fe_1920.jpg?alt=media&token=253fb354-904a-4907-94d8-582557cbaa2d"
+      },
+      {
+        "id": 4,
+        "title": "malang asyik",
+        "destinasi": "coban rondo,taman labirin,jatim park,bns",
+        "harga": "350.000",
+        "gambar": "https://firebasestorage.googleapis.com/v0/b/jgh-1-36886.appspot.com/o/waterfall-ge2c9a234a_1920.jpg?alt=media&token=6f8ff262-e73f-4f3d-a1f1-a35a639bc255"
+      },
+      {
+        "id": 5,
+        "title": "surabaya suka",
+        "destinasi": "gili iyang,pantai ropet,kebun binatang surabaya",
+        "harga": "300.000",
+        "gambar": "https://firebasestorage.googleapis.com/v0/b/jgh-1-36886.appspot.com/o/surabaya-g4240a6401_1920.jpg?alt=media&token=b1227f41-f2d7-4602-a230-0915995079fd"
+      },
+      {
+        "id": 1648004565925,
+        "title": "ziarah",
+        "destinasi": "tuban,gresik",
+        "harga": "200.000",
+        "gambar": "https://firebasestorage.googleapis.com/v0/b/jgh-1-36886.appspot.com/o/Berkunjung%20ke%20Kota%20Batu%20di%20Malang.jpg?alt=media&token=6331e300-c9ed-46da-a9c5-87f449be7f49"
+      },
+      {
+        "id": 1648004849094,
+        "title": "pppp",
+        "destinasi": "pariyaman",
+        "harga": "800.000",
+        "gambar": "https://firebasestorage.googleapis.com/v0/b/jgh-1-36886.appspot.com/o/perahu-g6687e19fe_1920.jpg?alt=media&token=253fb354-904a-4907-94d8-582557cbaa2d"
+      },
+      {
+        "id": 1648012161196,
+        "gambar": "https://www.kembangbilo.desa.id/desa/upload/artikel/sedang_1573148037_tuban%20BUMI%20WALI%20BABAT.jpg",
+        "title": "tuban",
+        "destinasi": "paralayang",
+        "harga": "200.000"
+      },
+      {
+        "id": 1648012889825,
+        "gambar": "https://1.bp.blogspot.com/-_GBYdTePW0s/XW4cyZfz5gI/AAAAAAAADP8/l-PrLGmN83IAF6F0tiLXXxRFktjDUkcxgCLcBGAs/s1600/Air-Terjun-Nglirip-Tuban.jpg",
+        "title": "tuban",
+        "destinasi": "Air Terjun nglirip",
+        "harga": "100.000"
+      }
+    ]
+}
