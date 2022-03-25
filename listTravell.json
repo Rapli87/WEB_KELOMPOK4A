@@ -1,5 +1,5 @@
 {
-    "cutomer": [
+    "customer": [
       {
         "userId": 1,
         "id": 1,
@@ -155,5 +155,69 @@
         "destinasi": "Air Terjun nglirip",
         "harga": "100.000"
       }
+    ],
+    "destinasipopuler":[
+      {
+        "id":1,
+        "gambar":"https://pinhome-blog-assets-public.s3.amazonaws.com/2021/08/25015001_1771233183179230_3692977940988952576_n-1-e1527675068825-1.jpg",
+        "nama":"Bukit Kapur Arosbaya",
+        "lokasi":"Bangkalan"
+      },
+      {
+        "id":2,
+        "gambar":"https://pinhome-blog-assets-public.s3.amazonaws.com/2021/08/31725983_2057652197893317_6368625665977090048_n-e1527674414813-1.jpg",
+        "nama":"Kawah Ijen",
+        "lokasi":"Banyuwangi"
+      },
+      {
+        "id":3,
+        "gambar":"https://pinhome-blog-assets-public.s3.amazonaws.com/2021/08/29400716_177165312912712_2608096505126453248_n-e1527675173762-1.jpg",
+        "nama":"Pantai Tambakrejo",
+        "lokasi":"Blitar"
+      },
+      {
+        "id":4,
+        "gambar":"https://pinhome-blog-assets-public.s3.amazonaws.com/2021/08/32321848_377760072725708_1671991727080079360_n-e1527675321590-1.jpg",
+        "nama":" Air Tejun Nglirip",
+        "lokasi":"Tuban"
+      },
+      {
+        "id":5,
+        "gambar":"https://pinhome-blog-assets-public.s3.amazonaws.com/2021/08/28753557_186880011928323_4813122943842254848_n-e1527675409682-1.jpg",
+        "nama":"Bukit Kawah Wurung",
+        "lokasi":"Bondowoso"
+      },
+      {
+        "id":6,
+        "gambar":"https://pinhome-blog-assets-public.s3.amazonaws.com/2021/08/32784126_1900433476689515_9103059149511458816_n-1.jpg",
+        "nama":"Pulau Bawean",
+        "lokasi":"Gresik"
+      },
+      {
+        "id":7,
+        "gambar":"https://pinhome-blog-assets-public.s3.amazonaws.com/2021/08/31988094_169673297053521_3374530970966294528_n-1.jpg",
+        "nama":"Pantai Papuma",
+        "lokasi":"Jember"
+      },
+      {
+        "id":8,
+        "gambar":"https://pinhome-blog-assets-public.s3.amazonaws.com/2021/08/29088364_2023905774515817_3471989783276814336_n-e1527679240759-1.jpg",
+        "nama":"Goa Sigolo-golo",
+        "lokasi":"Jombang"
+      },
+      {
+        "id":1,
+        "gambar":"https://pinhome-blog-assets-public.s3.amazonaws.com/2021/08/32212331_358213684583158_5119335819781341184_n-1.jpg",
+        "nama":"Gunung Kelud",
+        "lokasi":"Kediri"
+      },
+      {
+        "id":1,
+        "gambar":"https://pinhome-blog-assets-public.s3.amazonaws.com/2021/08/30830144_179766776007921_5953137736717172736_n-e1527679566396-1.jpg",
+        "nama":"WBL ( Wisata Bahari Lamongan) ",
+        "lokasi":"Lamongan"
+      }
+
     ]
+  
 }
