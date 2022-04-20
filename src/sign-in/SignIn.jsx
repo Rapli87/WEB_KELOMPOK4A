@@ -1,8 +1,8 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 
 // styling
 import "../App.css";
-
 const SignIn = () => {
   return (
     <div className="form-comp cfb">
@@ -19,7 +19,9 @@ const SignIn = () => {
           <input placeholder="Masukkan Password" type={"password"} />
         </label>
         <br />
+        <Link to='/dashboard' className='btn-mobile'>
         <button>Sign In!</button>
+        </Link>
       </form>
     </div>
   );
