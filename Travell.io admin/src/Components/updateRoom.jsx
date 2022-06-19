@@ -133,7 +133,7 @@ const UpdateRoom = () => {
           ],
         },
       }).then(() => {
-        alert("Room updated.!");
+        alert("Destinasi updated.!");
         setName("");
         settype("");
         setcapacity(0);
@@ -314,7 +314,7 @@ const UpdateRoom = () => {
                       className="btn btn-block btn-outline-primary"
                       onClick={updateRoomFirebase}
                     >
-                      UPDATE ROOM
+                      UPDATE DESTINASI
                     </button>
                   </div>
                 </div>
@@ -331,7 +331,7 @@ const UpdateRoom = () => {
                   <h1 className="text-center display-4">Update</h1>
                   <h3>Please select room from Room page..</h3>
                   <Link to="/rooms" className="btn btn-warning mt-4 ">
-                    Back to Rooms
+                    Kembali Ke Destinasi
                   </Link>
                 </div>
               </div>
