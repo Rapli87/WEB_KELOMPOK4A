@@ -51,10 +51,11 @@ const Bookings = () => {
             <tr>
               <th>ID</th>
               <th>Destinasi</th>
-              <th>Start Date</th>
-              <th>End Date</th>
-              <th>Capactiy</th>
-              <th>Price</th>
+              <th>Tanggal Mulai</th>
+              <th>Tanggal Akhir</th>
+              <th>Jumlah orang</th>
+              <th>Kapasitas maksimum</th>
+              <th>Harga</th>
               <th>Status</th>
             </tr>
           </thead>
@@ -67,6 +68,7 @@ const Bookings = () => {
                   <td>{booking.type.toUpperCase()}</td>
                   <td>{booking.startDate}</td>
                   <td>{booking.endDate}</td>
+                  <td>{booking.persons}</td>
                   <td>{booking.capacity}</td>
                   <td>{booking.totalPrice}</td>
                   <StatusTD type={booking.status}>{booking.status}</StatusTD>
@@ -84,7 +86,7 @@ const Bookings = () => {
           <br></br>
           <div className="row">
             <div className="col-md-12 col-12">
-              <mark>Silakan kirim pembayaran pada no. yang tertera di bawah:
+              <mark>Silahkan kirim pembayaran pada no. yang tertera di bawah:
                 <br></br>
                 1. 0109 0107 6840 501 BRI (A.N TRAVELL.IO) 
                 <br></br>
@@ -108,10 +110,10 @@ const Bookings = () => {
           <div className="row my-5">
             <div className="col-md-6 col-12 mx-auto">
               <div className="card shadow-lg border-0 p-4 error">
-                <h1 className="text-center display-4">No bookings.</h1>
-                <h3>Click below to start Booking!.</h3>
+                <h1 className="text-center display-4">Tidak ada Pemesanan</h1>
+                <h3>Pilih destinasi anda untuk memulai pemesanan!.</h3>
                 <Link to="/rooms" className="btn btn-warning mt-4 ">
-                  Start Booking.
+                  Mulai Pemesanan.
                 </Link>
               </div>
             </div>

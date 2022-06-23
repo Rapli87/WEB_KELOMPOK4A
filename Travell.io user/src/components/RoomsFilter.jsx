@@ -55,7 +55,7 @@ const RoomsFilter = ({ rooms }) => {
       <div className="row">
         <div className="col-md-6 col-12">
           <div className="form-group">
-            <label htmlFor="type">Jumlah Orang</label>
+            <label htmlFor="type">Paket</label>
             <select
               name="type"
               id="type"
@@ -103,7 +103,7 @@ const RoomsFilter = ({ rooms }) => {
               onChange={handleChange}
             />
             <label htmlFor="breakfast" className="custom-control-label">
-              Breakfast
+              Makan
             </label>
           </div>
           <div className="custom-control custom-checkbox">

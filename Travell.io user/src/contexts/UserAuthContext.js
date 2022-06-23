@@ -28,7 +28,7 @@ export function UserAuthContextProvider({ children }) {
       if (userAuth[0]) {
         return signInWithEmailAndPassword(auth, email, password);
       }
-      alert("Please Sign in with User Account.");
+      alert("Silahkan Masuk dengan akun pengguna");
       // return signInWithEmailAndPassword(auth, email, password);
     });
   }

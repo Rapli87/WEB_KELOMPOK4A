@@ -11,7 +11,7 @@ export default function Error() {
         <Banner title="ERROR 404 NOT FOUND" subtitle="You are lost !! ITs dark everywhere">
                 <FaRegMeh className="lost"></FaRegMeh>
                 <Link to="/" className="btn btn-warning">
-                      RETURN HOME
+                      Kembali ke Beranda
                 </Link>
         </Banner>
         </>

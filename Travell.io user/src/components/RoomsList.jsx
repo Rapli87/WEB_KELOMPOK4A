@@ -17,7 +17,7 @@ export default function RoomsList(props) {
                 <div className="col-md-6 col-12 mx-auto">
                   <div className="empty-search">
                     <h3 className="display-4">
-                      Unfortunately no rooms matched your search parameters
+                      Mohon maaf data tidak ditemukan
                     </h3>
                   </div>
                 </div>

@@ -48,7 +48,7 @@ const Signup = () => {
   return (
     <>
       <div className="p-4 box" style={{ width: "70%", margin: "100px auto" }}>
-        <h2 className="mb-3">Create your account.</h2>
+        <h2 className="mb-3">Buat Akun anda.</h2>
         {error && <Alert variant="danger">{error}</Alert>}
         <Form onSubmit={handleSubmit}>
           <Form.Group className="mb-3" controlId="formbBasicText">
@@ -62,7 +62,7 @@ const Signup = () => {
           <Form.Group className="mb-3" controlId="formBasicEmail">
             <Form.Control
               type="email"
-              placeholder="Email address"
+              placeholder="Masukkan EMail"
               onChange={(e) => setEmail(e.target.value)}
             />
           </Form.Group>
@@ -71,7 +71,7 @@ const Signup = () => {
             defaultCountry="ID"
             className="phoneInput"
             id="number"
-            placeholder="Enter phone number"
+            placeholder="Masukkan No.HP"
             value={value}
             onChange={setValue}
           />
@@ -79,19 +79,19 @@ const Signup = () => {
           <Form.Group className="mb-3" controlId="formBasicPassword">
             <Form.Control
               type="password"
-              placeholder="Password"
+              placeholder="MAsukkan Password"
               onChange={(e) => setPassword(e.target.value)}
             />
           </Form.Group>
 
           <div className="d-grid gap-2">
             <Button variant="primary" type="Submit">
-              Sign up
+              Daftar
             </Button>
           </div>
         </Form>
         <div className="p-4 box mt-3 text-center">
-          Already have an account? <Link to="/">Log In</Link>
+          SUdah Punya Akun? <Link to="/">Masuk</Link>
         </div>
       </div>
     </>

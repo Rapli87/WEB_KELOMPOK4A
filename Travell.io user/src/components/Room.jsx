@@ -20,7 +20,7 @@ export default function Room({ room }) {
           to={`/rooms/${slug}`}
           className="btn-warning room-link text-center"
         >
-          Features
+          Selengkapnya
         </Link>
         <p className="room-info">{name}</p>
       </div>

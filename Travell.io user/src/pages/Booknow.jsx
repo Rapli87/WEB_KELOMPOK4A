@@ -86,10 +86,10 @@ export default function Booknow() {
         <div className="row my-5">
           <div className="col-md-6 col-12 mx-auto">
             <div className="card shadow-lg border-0 p-4 error">
-              <h1 className="text-center display-4">SORRY</h1>
-              <h3>No such room could be found...</h3>
+              <h1 className="text-center display-4">Maaf</h1>
+              <h3>Tidak ada data yang ditemukan...</h3>
               <Link to="/rooms" className="btn btn-warning mt-4 ">
-                Back to Destinasi
+                Kembali ke destinasi
               </Link>
             </div>
           </div>
@@ -109,10 +109,10 @@ export default function Booknow() {
   const [...defaultBcg] = images;
   function writeToDatabase() {
     if (persons > capacity) {
-      return alert("Please check the capacity of Destinasi.");
+      return alert("Silahkan cek kapasitas.");
     }
     if (daysLeft === 0) {
-      return alert("Please select the dates.");
+      return alert("silahkan isi tanggal.");
     }
     if (
       fullNmae &&
@@ -141,7 +141,7 @@ export default function Booknow() {
         id: uuid,
         refID: user.email,
       }).then(() => {
-        alert("Booked Succesfully! See bookings.");
+        alert("telah berhasi memesan.");
         navigate("/bookings");
       });
       setFullNmae("");
@@ -151,7 +151,7 @@ export default function Booknow() {
       setValue(0);
       setPersons(0);
     } else {
-      alert("Please Fill all fields");
+      alert("Silahkan isi semua kolom");
     }
   }
 
@@ -161,7 +161,7 @@ export default function Booknow() {
         <div className="col-md-10 mx-auto col-12 card shadow-lg border-0 p-4">
           <div>
             <br></br>
-            <h1 className="display-4">Booking</h1>
+            <h1 className="display-4">Pemesanan</h1>
           </div>
           <div className="row">
             <div className="col-md-6 col-12 my-auto">
@@ -184,11 +184,11 @@ export default function Booknow() {
                     <td>{capacity}</td>
                   </tr> */}
                  <tr>
-                    <th>Capacity</th>
-                    <td>{size} Capacity.</td>
+                    <th>Kapasitas</th>
+                    <td>{capacity} Kapasitas.</td>
                   </tr>
                   <tr>
-                    <th>Breakfast</th>
+                    <th>Makan</th>
                     <td>{breakfast === true ? `Included` : `Not Included`}</td>
                   </tr>
                   <tr>
@@ -203,7 +203,7 @@ export default function Booknow() {
             <div className="col-md-6 col-12">
               <div className="form-group">
                 <label htmlFor="Fromdate" className="font-weight-bolder mr-3">
-                  From Date{" "}
+                  Mulai Dari{" "}
                 </label>
                 <DatePicker
                   selected={startDate}
@@ -217,7 +217,7 @@ export default function Booknow() {
             <div className="col-md-6 col-12">
               <div className="form-group">
                 <label htmlFor="Todate" className="font-weight-bolder mr-3">
-                  To Date{" "}
+                  Sampai dari{" "}
                 </label>
                 <DatePicker
                   selected={endDate}
@@ -231,17 +231,17 @@ export default function Booknow() {
           <div className="row">
             <div className="col-md-6 col-12">
               <h6 className="font-weight-bolder">
-                Number of days : {daysLeft}
+               Berapa Hari : {daysLeft}
               </h6>
-              <mark>Please make sure Checkin time is from 9 am to 12 pm</mark>
+              <mark>Silahkan Regristasi mulai dari jam 8</mark>
             </div>
             <div className="col-md-6 col-12">
               <h6 className="font-weight-bold">
-                Price per day :{" "}
+                Harga satu Hari :{" "}
                 <span className="badge badge-info">Rp {price}</span>
               </h6>
               <h6 className="font-weight-bold">
-                Total Price to be paid :{" "}
+                Harga yang harus dibayar :{" "}
                 <span className="text-primary">Rp {daysLeft * price}</span>
               </h6>
             </div>
@@ -258,7 +258,7 @@ export default function Booknow() {
                       className="form-control"
                       onChange={handlepersons}
                       id="persons"
-                      placeholder="No. of persons"
+                      placeholder="jumlah orang"
                       required
                     />
                     <label htmlFor="forName">Nama</label>
@@ -268,7 +268,7 @@ export default function Booknow() {
                       value={fullNmae}
                       id="forName"
                       onChange={handleName}
-                      placeholder="Full name"
+                      placeholder="nama"
                       required
                     />
                     <label htmlFor="Number">No HP</label>
@@ -276,7 +276,7 @@ export default function Booknow() {
                       defaultCountry="ID"
                       className="phoneInput"
                       id="number"
-                      placeholder="Enter phone number"
+                      placeholder="masukkan no.Hp"
                       value={value}
                       onChange={setValue}
                     />
@@ -289,11 +289,11 @@ export default function Booknow() {
                       onChange={handleCnic}
                       required
                       id="CNIC"
-                      placeholder="NIK"
+                      placeholder="Masukkan NIK"
                       maxLength={13}
                     />
                     <small id="emailHelp" className="form-text text-muted">
-                      We'll never share your NIK with anyone else.
+                     Kami akan menjaga semua privasi pengunjung.
                     </small>
                     <label htmlFor="address">Alamat</label>
                     <input
@@ -302,7 +302,7 @@ export default function Booknow() {
                       value={address}
                       onChange={handleaddress}
                       id="address"
-                      placeholder="Your address"
+                      placeholder="alamat"
                       required
                     />
 
@@ -314,11 +314,11 @@ export default function Booknow() {
                       onChange={handleemail}
                       id="exampleInputEmail1"
                       aria-describedby="emailHelp"
-                      placeholder="Enter email"
+                      placeholder="masukkan email"
                       required
                     />
                     <small id="emailHelp" className="form-text text-muted">
-                      We'll never share your email with anyone else.
+                    Kami akan menjaga semua privasi pengunjung.
                     </small>
                   </div>
 
@@ -330,7 +330,7 @@ export default function Booknow() {
                   //   data-target="#thanks"
                   onClick={writeToDatabase}
                 >
-                  Confirm Booking
+                  Lanjutkan Pembayaran
                 </button>
               </div>
             </div>

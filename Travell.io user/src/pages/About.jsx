@@ -201,7 +201,7 @@ function About() {
               <div className="card-text text-black-50">
               Manager Tim<p className="float-right">E41200029</p>
               </div>
-              <h6 className="mt-5">CONNECT</h6>
+              <h6 className="mt-5">Akun media Sosial</h6>
               <div className="d-flex justify-content-around">
                 <FaFacebookSquare className="connect" />
                 <AiFillInstagram className="connect" />
@@ -223,7 +223,7 @@ function About() {
               <div className="card-text text-black-50">
               Website Developer <p className="float-right">E41200115</p>
               </div>
-              <h6 className="mt-5">CONNECT</h6>
+              <h6 className="mt-5">Akun media Sosial</h6>
               <div className="d-flex justify-content-around">
                 <FaFacebookSquare className="connect" />
                 <AiFillInstagram className="connect" />
@@ -245,7 +245,7 @@ function About() {
               <div className="card-text text-black-50">
               UI/UX Designer <p className="float-right">E41200170</p>
               </div>
-              <h6 className="mt-5">CONNECT</h6>
+              <h6 className="mt-5">Akun media Sosial</h6>
               <div className="d-flex justify-content-around">
                 <FaFacebookSquare className="connect" />
                 <AiFillInstagram className="connect" />
@@ -267,7 +267,7 @@ function About() {
               <div className="card-text text-black-50">
                 Mobile Developer <p className="float-right">E41200105</p>
               </div>
-              <h6 className="mt-5">CONNECT</h6>
+              <h6 className="mt-5">Akun media Sosial</h6>
               <div className="d-flex justify-content-around">
                 <FaFacebookSquare className="connect" />
                 <AiFillInstagram className="connect" />
@@ -289,7 +289,7 @@ function About() {
               <div className="card-text text-black-50">
                 SQA <p className="float-right">E41200315</p>
               </div>
-              <h6 className="mt-5">CONNECT</h6>
+              <h6 className="mt-5">Akun media Sosial</h6>
               <div className="d-flex justify-content-around">
                 <FaFacebookSquare className="connect" />
                 <AiFillInstagram className="connect" />

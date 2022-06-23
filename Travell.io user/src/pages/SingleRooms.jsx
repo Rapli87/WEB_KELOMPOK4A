@@ -32,7 +32,7 @@ const SingleRooms = () => {
       <StyledHero img={defaultBcg[0]}>
         <Banner title={`Destinasi ${name}`}>
           <Link to="/rooms" className="btn btn-primary">
-            Back To Destinasi
+            kembali ke destinasi
           </Link>
         </Banner>
       </StyledHero>
@@ -88,7 +88,7 @@ const SingleRooms = () => {
                     to={`/booknow/${slug}`}
                     className="btn btn-outline-primary btn-block btn-lg float-right "
                   >
-                    Book Now
+                    pesan sekarang
                   </Link>
                 </div>
               </div>
@@ -100,10 +100,10 @@ const SingleRooms = () => {
           <div className="row my-5">
             <div className="col-md-6 col-12 mx-auto">
               <div className="card shadow-lg border-0 p-4 error">
-                <h1 className="text-center display-4">SORRY</h1>
-                <h3>No such room could be found...</h3>
+                <h1 className="text-center display-4">maaf</h1>
+                <h3>tidak ada data yang ditemukan...</h3>
                 <Link to="/rooms" className="btn btn-warning mt-4 ">
-                  Back to Destinasi
+                  kembali ke destinasi
                 </Link>
               </div>
             </div>

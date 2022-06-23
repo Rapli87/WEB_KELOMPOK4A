@@ -91,7 +91,7 @@
                         exact="true"
                         to="/bookings"
                       >
-                        Bookings
+                        Pemesanan
                       </NavLink>
                     </li>
                     <li>
@@ -106,7 +106,7 @@
                           className="btn btn-outline-danger"
                           onClick={handleLogout}
                         >
-                          Log Out
+                          Keluar
                         </button>
                       </NavLink>
                     </li>
@@ -121,7 +121,7 @@
                         to="/signin"
                       >
                         <button type="button" className="btn btn-outline-success">
-                          Log in
+                          Masuk
                         </button>
                       </NavLink>
                     </li>
@@ -134,7 +134,7 @@
                         to="/signup"
                       >
                         <button type="button" className="btn btn-outline-danger">
-                          Sign up
+                          Daftar
                         </button>
                       </NavLink>
                     </li>

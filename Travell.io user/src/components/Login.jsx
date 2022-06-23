@@ -58,7 +58,7 @@ const Login = () => {
           <Form.Group className="mb-3" controlId="formBasicEmail">
             <Form.Control
               type="email"
-              placeholder="Email address"
+              placeholder="Masukkan Email"
               onChange={(e) => setEmail(e.target.value)}
             />
           </Form.Group>
@@ -66,28 +66,28 @@ const Login = () => {
           <Form.Group className="mb-3" controlId="formBasicPassword">
             <Form.Control
               type="password"
-              placeholder="Password"
+              placeholder="Masukkan Password"
               onChange={(e) => setPassword(e.target.value)}
             />
           </Form.Group>
 
           <div className="d-grid gap-2">
             <Button variant="primary" type="Submit">
-              Log In
+              Masuk
             </Button>
           </div>
         </Form>
         <hr />
-        <div>
+        {/* <div>
           <GoogleButton
             className="g-btn"
             style={{ width: "100%" }}
             type="dark"
             onClick={handleGoogleSignIn}
           />
-        </div>
+        </div> */}
         <div className="p-4 box mt-3 text-center">
-          Don't have an account? <Link to="/signup">Sign up</Link>
+          Jika tidak memiliki akun? silahkan <Link to="/signup">Daftar</Link>
         </div>
       </div>
     </>
